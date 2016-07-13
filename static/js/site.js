@@ -1,14 +1,15 @@
-var color = "honeydew";
-
 function hola(){
-
-    alert("Bienvenido a esta pagina ")
+    sweetAlert("World Places",
+    "¡Bienvenido a esta pagina!");
+    document.body.style.backgroundColor = "lightseagreen"
 }
 
-function changeBkgColor(){
+function changeBkgColor()
     var color = document.body.style.backgroundColor;
     if(color == "lightseagreen"){
-        color = "honeydew";
+        console.log(">Color Original: " + color);
+        if(color == "lightseagreen"){
+             color = "honeydew";                     
     }else{
         color = "lightseagreen";
     }
