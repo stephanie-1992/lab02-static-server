@@ -1,0 +1,25 @@
+{
+  "name": "lab02-static-server",
+  "description": "Servidor Web estatico en node",
+  "main": "server.js",
+  "authors": [
+    "vidalstephanie259@gmail.com"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "static-server",
+    "web"
+  ],
+  "homepage": "https://github.com/stephanie-1992/lab02-static-server",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sweetalert": "^1.1.3"
+  }
+}

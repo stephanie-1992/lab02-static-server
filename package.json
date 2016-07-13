@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/stephanie-1992/lab02-static-server/issues"
   },
-  "homepage": "https://github.com/stephanie-1992/lab02-static-server#readme"
+  "homepage": "https://github.com/stephanie-1992/lab02-static-server#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "colors": "^1.1.2",
+    "mime": "^1.3.4"
+  }
 }
