@@ -30,7 +30,8 @@ build/Release
 node_modules
 static/vendor
 jspm_packages
-
+data
+bower_components
 # Optional npm cache directory
 .npm
 

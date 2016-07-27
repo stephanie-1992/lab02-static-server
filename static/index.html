@@ -1,45 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+    
+
 <head>
     <meta charset="UTF-8">
-    <link 
-    rel="stylesheet"
-    href="./vendor/sweetalert/dist/sweetalert.css"
-    <link rel="stylesheet" href="./css/site.css">
-    <title>Mis lugares favoritos</title>
+    <!-- Import GOOGLE ICON FONT FAMILY -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Para importar localmente 
+    http://stackoverflow.com/questions/31283977/material-design-lite-fonts-and-icons -->
+    <!-- Import Materialize -->
+    <link rel="stylesheet" href="./vendor/materialize/bin/materialize.css">
+    <link rel="stylesheet" href="./vendor/sweetalert/dist/sweetalert.css">
+    <title>Mis lugares Favoritos</title>
 </head>
-<body onload="hola()">
-    <h1>Los lugares favoritos de Stephanie Vidal</h1>
-    <div class="body">
-        <div class="lugar1">
-            <h2>Cuahutla Morelos</h2>
-            <img
-            width="300px"
-             height="300px" 
-            src=http://www.lumontlanguagecenter.com/main/wp-content/uploads/2009/09/Iglesia-de-San-Diego-de-Amilpas-Cuautla-copy-1024x685.jpg
-             alt= "Cuahutla Morelos">
-        </div>            
-        <div class="lugar2">
-            <h2>Cozumel</h2>
-             <img
-            width="300px"
-            height="300px" 
-            src="http://www.el-periodico.com.mx/noticias/wp-content/uploads/2015/02/Alternativa-2.jpg" 
-            alt="Tepozotlan">
+
+<body>
+ <div class="card-panel pink accent-1">
+  <p class="flow-text">
+  <h5 class="purple-text">
+    
+      
+       <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="img/fany.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+                GALLETA DE LA SUERTE
+              </span>
+            </div>
+          </div>
         </div>
-        <div class="lugar3">
-            <h2>pachuca</h2>
-            <img
-            width="300px"
-            height="300px" 
-            src="http://www.turimexico.com/wp-content/uploads/2015/06/pachuca-de-soto.jpg" 
-            alt="Pachuca">
+      </div>
+        
+    <h2 class="center-align">¡BIENVENIDO!</p></h2>
+  </div>
+        
+          
+            
+    <div class="parallax-container" style="height:400px">
+        
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+                <h1 class="header center plum-text">
+                    
+                </h1>
+               
+            </div>
+        </div>
+        <div class="parallax">
+            <img class="responsive-img" src="img/galletasuerte1.jpg">
+            <img src="img/galletasuerte2.jpg">
         </div>
     </div>
-    <div class="selector">
-        <button onclick="changeBkgColor()">CAMBIAR FONDO</button>
+      <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+             
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+            
+    <div class="section white">
+        <div class="row cener container">
+
+              <blockquote>
+    Rompe la Galleta para saber tu suerte...
+    </blockquote> 
+          
+
+            <div class="center">
+                <button onclick="getFortuneFromServer()" class="waves-effect purple btn-large">
+                     ROMPE </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container" style="height:300px">
+        <div class="parallax">
+            <img src="img/galletasuerte4.jpg">
+        </div>
+    </div>
+    <footer class="page-footer pink accent-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="blue-text">
+                        PWM Curso de Verano                    
+                                             
+                    </h5>
+                    <p class="grey-text text-lighten-4">
+                        SUERTE
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Galleta de la Fortuna
+                <a class="grey-text text-lighten-4 right" href="#!">Stephanie Vidal</a>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    Fortune Cookie
+                    <a class="grey-text text-lighten-4 right" href="#!">Stephanie Vidal</a>
+                </div>
+
+            </div>
+    </footer>
     <!-- Seccion de Scripts -->
+    <script src="./vendor/jquery/dist/jquery.min.js"></script>
+    <script src="./vendor/materialize/bin/materialize.js"></script>
     <script src="./vendor/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="./js/site/js"></script>
+    <script src="./js/site.js"></script>
 </body>
+
 </html>
